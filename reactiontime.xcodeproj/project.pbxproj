@@ -15,6 +15,9 @@
 		668E0DDC23F834750035598C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668E0DDA23F834750035598C /* LaunchScreen.storyboard */; };
 		668E0DE723F834760035598C /* reactiontimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E0DE623F834760035598C /* reactiontimeTests.swift */; };
 		668E0DF223F834760035598C /* reactiontimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E0DF123F834760035598C /* reactiontimeUITests.swift */; };
+		669618AC23F9B68D00406D6C /* GameSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618AB23F9B68D00406D6C /* GameSelect.swift */; };
+		669618AE23F9B8D400406D6C /* Game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618AD23F9B8D400406D6C /* Game1.swift */; };
+		669618B023F9B92400406D6C /* Game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669618AF23F9B92400406D6C /* Game2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		668E0DED23F834760035598C /* reactiontimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactiontimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668E0DF123F834760035598C /* reactiontimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactiontimeUITests.swift; sourceTree = "<group>"; };
 		668E0DF323F834760035598C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669618AB23F9B68D00406D6C /* GameSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelect.swift; sourceTree = "<group>"; };
+		669618AD23F9B8D400406D6C /* Game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1.swift; sourceTree = "<group>"; };
+		669618AF23F9B92400406D6C /* Game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				668E0DCF23F834740035598C /* AppDelegate.swift */,
 				668E0DD123F834740035598C /* SceneDelegate.swift */,
 				668E0DD323F834740035598C /* ContentView.swift */,
+				669618AB23F9B68D00406D6C /* GameSelect.swift */,
+				669618AD23F9B8D400406D6C /* Game1.swift */,
+				669618AF23F9B92400406D6C /* Game2.swift */,
 				668E0DD523F834750035598C /* Assets.xcassets */,
 				668E0DDA23F834750035598C /* LaunchScreen.storyboard */,
 				668E0DDD23F834750035598C /* Info.plist */,
@@ -200,7 +209,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Benjamin Müller";
+				ORGANIZATIONNAME = "BM";
 				TargetAttributes = {
 					668E0DCB23F834740035598C = {
 						CreatedOnToolsVersion = 11.3;
@@ -268,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				668E0DD023F834740035598C /* AppDelegate.swift in Sources */,
+				669618AC23F9B68D00406D6C /* GameSelect.swift in Sources */,
+				669618B023F9B92400406D6C /* Game2.swift in Sources */,
 				668E0DD223F834740035598C /* SceneDelegate.swift in Sources */,
 				668E0DD423F834740035598C /* ContentView.swift in Sources */,
+				669618AE23F9B8D400406D6C /* Game1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

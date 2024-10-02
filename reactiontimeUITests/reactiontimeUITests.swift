@@ -2,8 +2,7 @@
 //  reactiontimeUITests.swift
 //  reactiontimeUITests
 //
-//  Created by Benjamin Müller on 15.02.20.
-//  Copyright © 2020 Benjamin Müller. All rights reserved.
+//  Created by BM on 15.02.20.
 //
 
 import XCTest
